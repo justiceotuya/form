@@ -17,19 +17,27 @@ textarea {
     display: block;
     width: 100%;
     padding: 10px;
-    margin-top: 10vh;
+    margin-top: 3vw;
 }
 
 button {
     display: inline-block;
-    margin: 10vh 0;
+    margin: 3vw 0;
     width: 20%;
-    background-color: #6097C0;
+    background-color: #82b2fd;
     color: #fff;
     border: transparent;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px;
-    cursor:pointer;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0460f3
+}
+
+button:focus {
+    outline: none;
 }
 
 img {
